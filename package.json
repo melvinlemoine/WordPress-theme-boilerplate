@@ -1,6 +1,6 @@
 {
   "name": "WordPress-starter-theme",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "",
   "scripts": {
     "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
