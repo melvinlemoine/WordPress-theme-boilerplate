@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+
+<html lang="en" dir="ltr">
+
 <head>
     <meta charset="utf-8">
     <title><?php the_title(); ?></title>
