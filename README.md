@@ -1,5 +1,34 @@
 # WordPress starter theme
 ![header cover](https://i.imgur.com/RcsXbEa.png)
 Don't longer waste time by creating usual files and type usual code & functions in your wordpress theme project.
+
+## Theme content
+### Files
+File name | Usage
+------------ | -------------
+header.php | The header template file usually contains your site’s document type, meta information, links to stylesheets and scripts, and other data.
+footer.php | For generating the footer
+functions.php | Imports, configs, and Custom Post Type
+sidebar.php | For generating the sidebar
+index.php | The main template file. It is required in all themes.
+front-page.php | The front page template is always used as the site front page if it exists, regardless of what settings on Admin > Settings > Reading.
+home.php | The home page template is the front page by default. If you do not set WordPress to use a static front page, this template is used to show latest posts.
+single.php | The single post template is used when a visitor requests a single post.
+style.css | The main stylesheet. It is required in all themes and contains the information header for your theme.
+404.php | The 404 template is used when WordPress cannot find a post, page, or other content that matches the visitor’s request.
+taxonomy.php | The taxonomy term template is used when a visitor requests a term in a custom taxonomy.
+category.php | The category template is used when visitors request posts by category.
+
+### Folders
+Folder name | Usage
+------------ | -------------
+/images | Images location
+/sass | SASS files
+/js | Content
+/includes | Content
+
+## SASS
+
+
 ## Support
 You can support my work on my [tipeee page](https://fr.tipeee.com/melvin-lemoine)
