@@ -1,4 +1,4 @@
-# WordPress starter theme
+# WordPress starter theme ![GitHub all releases](https://img.shields.io/github/downloads/GentillePlume/wordpress-starter-theme/total?style=for-the-badge)
 ![header cover](https://i.imgur.com/RcsXbEa.png)
 Don't longer waste time by creating usual files and type usual code & functions in your wordpress theme project.
 
