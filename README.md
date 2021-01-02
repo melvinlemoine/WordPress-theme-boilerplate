@@ -25,18 +25,19 @@ Folder name | Usage
 ------------ | -------------
 /images | Images location
 /sass | SASS files
-/js | Content
-/includes | Content
+/js | JavaScript scripts
+/includes | Parts that are used multiple times in multiples pages (example: article card or section)
 
 ## SASS
 
+Launch SASS engine to compile after code modification
 ```bash
 npm run start
 ```
+Build the CSS with autoprefixer & cleaner
 ```bash
 npm run deploy
 ```
-
 
 ## Support
 You can support my work on my [tipeee page](https://fr.tipeee.com/melvin-lemoine)
