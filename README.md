@@ -29,6 +29,13 @@ Folder name | Usage
 
 ## SASS
 
+```bash
+npm run start
+```
+```bash
+npm run deploy
+```
+
 
 ## Support
 You can support my work on my [tipeee page](https://fr.tipeee.com/melvin-lemoine)
