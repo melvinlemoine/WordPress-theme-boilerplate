@@ -1,4 +1,4 @@
-<?php /* Template Name: Example template */ ?>
+<?php /* Template Name: Custom Template name */ ?>
 
 <?php get_header() ?>
 
