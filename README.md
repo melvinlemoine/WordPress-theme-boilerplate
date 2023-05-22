@@ -13,20 +13,23 @@ functions.php | Imports, configs, and Custom Post Type
 index.php | The main template file. It is required in all themes.
 front-page.php | The front page template is always used as the site front page if it exists, regardless of what settings on Admin > Settings > Reading.
 style.css | The main stylesheet. It is required in all themes and contains the information header for your theme.
-
+404.php | The 404 template is used when WordPress cannot find a post, page, or other content that matches the visitor’s request.
 
 ### Folders
 Folder name | Usage
 ------------ | -------------
+/assets | Assets location
 /sass | SASS files
+/js | JavaScript scripts
+/includes | Parts that are used multiple times in multiples pages (example: article card or section)
 
 ## SASS
 
 Launch SASS engine to compile after code modification
 ```bash
-npm run watch
+npm run start
 ```
 Build the CSS with autoprefixer & cleaner
 ```bash
-npm run deploy
+npm run watch
 ```
