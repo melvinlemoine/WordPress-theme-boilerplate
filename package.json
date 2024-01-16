@@ -2,9 +2,9 @@
   "name": "integration-boilerplate",
   "version": "1.0.1",
   "scripts": {
-    "deploy": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
-    "build-autoprefix": "postcss --use autoprefixer --output styles.css styles.css",
-    "build-cleancss": "cleancss -o styles.css styles.css",
+    "deploy": "npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build-autoprefix": "postcss --use autoprefixer --output style.css style.css",
+    "build-cleancss": "cleancss -o style.css style.css",
     "build-clean": "rimraf css",
     "build-sass": "sass sass/styles.sass styles.css",
     "watch": "npm run build-sass -- --watch"
@@ -14,7 +14,6 @@
     "autoprefixer": "^10.4.13",
     "clean-css-cli": "^5.5.0",
     "postcss-cli": "^9.1.0",
-    "rimraf": "^3.0.2",
     "sass": "^1.56.1",
     "postcss": "^8.4.19"
   },
