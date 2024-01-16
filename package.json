@@ -6,7 +6,7 @@
     "build-autoprefix": "postcss --use autoprefixer --output style.css style.css",
     "build-cleancss": "cleancss -o style.css style.css",
     "build-clean": "rimraf css",
-    "build-sass": "sass sass/styles.sass styles.css",
+    "build-sass": "sass sass/styles.sass style.css",
     "watch": "npm run build-sass -- --watch"
   },
   "author": "https://github.com/melvinlemoine",
