@@ -1,12 +1,11 @@
 {
   "name": "WordPress-theme-boilerplate",
-  "version": "1.1.0",
+  "version": "1.5",
   "description": "",
   "scripts": {
     "deploy": "npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
     "build-autoprefix": "postcss --use autoprefixer --output style.css style.css",
     "build-cleancss": "cleancss -o style.css style.css",
-    "build-clean": "rimraf css",
     "build-sass": "sass sass/styles.sass style.css",
     "watch": "npm run build-sass -- --watch"
   },
