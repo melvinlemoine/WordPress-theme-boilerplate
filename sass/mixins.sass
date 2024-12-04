@@ -1,0 +1,23 @@
+@mixin img-fit-parent
+    position: relative
+    overflow: hidden
+    
+@mixin img-fit
+    position: absolute
+    object-fit: cover
+    min-width: 100%
+    min-height: 100%
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    z-index: 0
+
+@mixin link-style-reset
+    text-decoration: none
+    color: initial
+
+@mixin expanded-link
+    &::before
+        content: ''
+        position: absolute
+        inset: 0

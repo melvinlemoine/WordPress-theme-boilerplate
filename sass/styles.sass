@@ -1,10 +1,10 @@
-@import wp-theme-infos
+// GENERAL & SETTINGS
+@forward "variables"
+@forward "fonts"
+@forward "general"
 
-@import variables
-@import fonts
-@import general
+@forward "components/all"
+@forward "parts/all"
 
-@import components/all
-@import parts/all
-@import includes/all
-@import front-page/0-all
+// PAGES
+@forward "pages/all"

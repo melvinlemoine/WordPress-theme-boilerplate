@@ -1,8 +1,25 @@
-/*!
-Theme Name: Theme boilerplate
-Theme URI: https://github.com/melvinlemoine/WordPress-theme-boilerplate
-Author: Melvin Lemoine
-Author URI: https://melvin.studio
-Description: Let's create a new theme !
-Version: 1.5
-*/@font-face{font-family:ExempleFont;src:url(assets/fonts/font.woff2) format("woff2")}
+:root {
+  --light: #F3FF5FD;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(assets/fonts/Poppins/poppins-regular.woff2) format("woff2");
+}
+body {
+  font-family: Poppins;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.home .header {
+  position: relative;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

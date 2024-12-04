@@ -1,6 +1,6 @@
 {
   "name": "WordPress-theme-boilerplate",
-  "version": "1.5",
+  "version": "1.6",
   "description": "",
   "scripts": {
     "deploy": "npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
@@ -12,10 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^10.4.19",
-    "clean-css-cli": "5.6.3",
-    "postcss-cli": "11.0.0",
-    "sass": "1.75.0"
+    "autoprefixer": "^10.4.20",
+    "clean-css-cli": "^5.6.3",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.82.0"
   },
   "browserslist": [
     "last 4 version",
